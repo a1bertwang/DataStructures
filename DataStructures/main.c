@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include "test.h"
+
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+//    testSort();
+//    testMalloc();
     return 0;
 }
+

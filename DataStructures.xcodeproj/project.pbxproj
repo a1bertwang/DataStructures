@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5035CD2420CE070E008950FD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5035CD2320CE070E008950FD /* main.c */; };
+		5035CD2C20CE202B008950FD /* source.c in Sources */ = {isa = PBXBuildFile; fileRef = 5035CD2B20CE202B008950FD /* source.c */; };
+		5035CD2F20CE2035008950FD /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 5035CD2E20CE2035008950FD /* test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		5035CD2020CE070E008950FD /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		5035CD2320CE070E008950FD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5035CD2A20CE202B008950FD /* source.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = source.h; sourceTree = "<group>"; };
+		5035CD2B20CE202B008950FD /* source.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = source.c; sourceTree = "<group>"; };
+		5035CD2D20CE2035008950FD /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		5035CD2E20CE2035008950FD /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				5035CD2320CE070E008950FD /* main.c */,
+				5035CD2A20CE202B008950FD /* source.h */,
+				5035CD2B20CE202B008950FD /* source.c */,
+				5035CD2D20CE2035008950FD /* test.h */,
+				5035CD2E20CE2035008950FD /* test.c */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5035CD2F20CE2035008950FD /* test.c in Sources */,
+				5035CD2C20CE202B008950FD /* source.c in Sources */,
 				5035CD2420CE070E008950FD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
